@@ -5,7 +5,7 @@ randomNumber1=Math.floor(randomNumber1)+1;
 //this above code gives random numer between 1-6
 
 //below code is to generate random dice Images/dice1.png - Images/dice6.png
-var randomDiceImage1="Images/dice"+randomNumber1+".png";
+var randomDiceImage1="images/dice"+randomNumber1+".png";
 
 //as there is more than one img element we use querySelectorAll. we use this to select the element or selector. to tap into first lmg element --> [0]
 var image1=document.querySelectorAll("img")[0];
@@ -21,7 +21,7 @@ var randomNumber2=Math.random();
 randomNumber2=randomNumber2 * 6;
 randomNumber2=Math.floor(randomNumber2)+1;
 
-var randomDiceImage2="Images/dice"+randomNumber2+".png";
+var randomDiceImage2="images/dice"+randomNumber2+".png";
 
 var image2=document.querySelectorAll("img")[1].setAttribute("src", randomDiceImage2);
 
